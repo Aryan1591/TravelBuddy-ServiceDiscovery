@@ -3,10 +3,10 @@ spring:
     name: Serviceregistry
 
 server:
-  port: 8761
+  port: 8080
 eureka:
   instance:
-    hostname: localhost
+    hostname: https://travelbuddy-servicediscovery-production.up.railway.app/
   client:
     register-with-eureka: false
     fetch-registry: false
